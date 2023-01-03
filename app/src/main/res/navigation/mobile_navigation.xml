@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.carplanner.ui.home.HomeFragment"
+        android:label="Strona Główna"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_paliwo"
+        android:name="com.example.carplanner.ui.paliwo.PaliwoFragment"
+        android:label="Paliwo"
+        tools:layout="@layout/fragment_paliwo" />
+
+
+    <fragment
+        android:id="@+id/nav_naprawa"
+        android:name="com.example.carplanner.ui.naprawa.NaprawaFragment"
+        android:label="Naprawy"
+        tools:layout="@layout/fragment_naprawa" />
+    <fragment
+        android:id="@+id/nav_wydatki"
+        android:name="com.example.carplanner.ui.wydatki.WydatkiFragment"
+        android:label="Wydatki"
+        tools:layout="@layout/fragment_wydatki" />
+    <fragment
+        android:id="@+id/nav_oc"
+        android:name="com.example.carplanner.ui.oc.OcFragment"
+        android:label="Ubezpieczenia"
+        tools:layout="@layout/fragment_oc" />
+    <fragment
+        android:id="@+id/nav_pt"
+        android:name="com.example.carplanner.ui.pt.PtFragment"
+        android:label="Przegląd techniczny"
+        tools:layout="@layout/fragment_pt" />
+
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="com.example.carplanner.SettingsActivity$SettingsFragment"
+
+        tools:layout="@layout/settings_activity" />
+
+</navigation>

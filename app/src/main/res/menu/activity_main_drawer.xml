@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="@string/strona_g_wna" />
+        <item
+            android:id="@+id/nav_paliwo"
+            android:icon="@drawable/ic_paliwo"
+            android:title="@string/tankowanie" />
+        <item
+            android:id="@+id/nav_naprawa"
+            android:icon="@drawable/ic_naprawa"
+            android:title="@string/naprawy" />
+        <item
+            android:id="@+id/nav_wydatki"
+            android:icon="@drawable/ic_wydatki"
+            android:title="@string/wydatki" />
+        <item
+            android:id="@+id/nav_oc"
+            android:icon="@drawable/ic_oc"
+            android:title="@string/ubezpieczenia" />
+        <item
+            android:id="@+id/nav_pt"
+            android:icon="@android:drawable/stat_notify_error"
+            android:title="@string/przegl_d_techniczny" />
+    </group>
+</menu>
